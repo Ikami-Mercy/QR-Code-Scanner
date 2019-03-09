@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/andika</item>
+        <item>@font/comfortaa_light</item>
+        <item>@font/happy_monkey</item>
+        <item>@font/heebo_thin</item>
+        <item>@font/laila_light</item>
+        <item>@font/ubuntu_light</item>
+    </array>
+</resources>

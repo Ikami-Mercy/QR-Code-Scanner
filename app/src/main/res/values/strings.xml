@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">COG Scan</string>
+    <string name="turn_off_flashlight">Flash ON</string>
+    <string name="turn_on_flashlight">Flash OFF </string>
+    <string name="title_activity_main">COG Scan</string>
+    <string name="message">Level The Code within the square</string>
+    <string name="title_activity_post_scan_details"> Summary</string>
+    <string name="prompt">Select Booth Category</string>
+    <string-array name="booth_category">
+        <item>Select Booth Category</item>
+        <item>AGRICULTURE</item>
+        <item>HEALTH</item>
+        <item>TRADE</item>
+        <item>WATER AND SANITATION</item>
+        <item>INFRASTRUCTURE AND URBAN DEVELOPMENT</item>
+    </string-array>
+</resources>

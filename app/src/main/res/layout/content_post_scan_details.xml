@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PostScanDetails"
+    tools:showIn="@layout/activity_post_scan_details">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="@font/heebo_thin"
+            android:text="Confirmed Details"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/delegate_name"
+            android:layout_width="276dp"
+            android:layout_height="46dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:fontFamily="@font/heebo_thin"
+            android:text="NAME" />
+
+        <TextView
+            android:id="@+id/delegate_id"
+            android:layout_width="276dp"
+            android:layout_height="49dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="@font/heebo_thin"
+            android:text="National Id" />
+
+        <TextView
+            android:id="@+id/delegate_category"
+            android:layout_width="276dp"
+            android:gravity="center"
+            android:layout_height="49dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/heebo_thin"
+            android:text="Category" />
+        <TextView
+            android:id="@+id/delegate_booth"
+            android:layout_width="276dp"
+            android:gravity="center"
+            android:layout_height="49dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/heebo_thin" />
+
+        <Button
+            android:id="@+id/btn_post_results"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_rounded_primary"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Post Attendance"
+            android:fontFamily="@font/heebo_thin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
